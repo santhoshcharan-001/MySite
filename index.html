@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repala Nagaraju</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Javascript -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/typeit.min.js"></script>
+    <script src="./js/jquery-json.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+    <div class="mobile-nav">
+      <h1>Murarishetty Santhosh Charan</h1>
+      <button class="toggle-nav">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon"
+          viewBox="0 0 512 512"
+        >
+          <title>Reorder Three</title>
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M96 256h320M96 176h320M96 336h320"
+          />
+        </svg>
+      </button>
+    </div>
+    <nav>
+      <div class="img-container">
+        <img class="" src="./images/santhosh.jpeg" alt="Profile" />
+        <h2>Murarishetty Santhosh Charan</h2>
+      </div>
+
+      <div class="nav-links">
+        <a class="nav-link nav-link-active" data-name="home">
+          <img src="./images/icons/home.svg" alt="" class="nav-icon" /> Home</a
+        >
+        <a class="nav-link" data-name="about">
+          <img src="./images/icons/about.svg" alt="" class="nav-icon" /> About
+          Me</a
+        >
+        <a class="nav-link" data-name="resume">
+          <img src="./images/icons/resume.svg" alt="" class="nav-icon" />
+          Resume</a
+        >
+        <a class="nav-link" data-name="work">
+          <img src="./images/icons/work.svg" alt="" class="nav-icon" /> Work</a
+        >
+        <a class="nav-link" data-name="contact">
+          <img src="./images/icons/contact.svg" alt="" class="nav-icon" />
+          Contact</a
+        >
+      </div>
+
+      <div class="nav-bottom">
+        <div class="social-links">
+          <a href="https://www.facebook.com/santhosh.charan.3139/" target="_blank"
+            ><img src="./images/icons/facebook.svg" alt=""
+          /></a>
+          <a href="https://github.com/santhoshcharan-001" target="_blank"
+            ><img src="./images/icons/github.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/murarishetty-santhosh-charan-37a921200/" target="_blank"
+            ><img src="./images/icons/linkedin.svg" alt=""
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=8688798944"
+            target="_blank"
+            ><img src="./images/icons/whatsapp.svg" alt=""
+          /></a>
+        </div>
+        <div>Copyright &copy; 2021</div>
+      </div>
+    </nav>
+
+    <section class="card home card-active" id="home">
+      <h1 class="home-name">Murarishetty <span>Santhosh Charan</span></h1>
+      <p>I am <span class="typeit"></span></p>
+    </section>
+    <section class="card about" id="about">
+      <div class="content">
+        <div class="heading-container">
+          <div class="flex-container">
+            <h1>About Me</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <title>Person</title>
+              <path
+                d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
+                fill="none"
+                stroke="currentColor"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+            </svg>
+          </div>
+          <hr />
+        </div>
+        <div class="about-grid">
+          <div class="bio">
+            <h1 class="content-heading">UI/UX Designer & Developer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              veniam dolor a quos vitae fuga aspernatur doloremque magni tempora
+              voluptates ipsa aperiam commodi, quae tempore!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              accusantium voluptates quo est mollitia accusamus culpa nobis
+              velit harum debitis tempora animi ab corporis tempore amet,
+              ratione veniam sit dolor itaque. Quaerat nihil earum dolores vitae
+              nesciunt reiciendis perferendis ducimus.
+            </p>
+          </div>
+          <div class="personal-info">
+            <h1 class="content-heading">Personal Information</h1>
+            <div><span class="field-name">Name</span> : Murarishetty Santhosh Charan</div>
+            <div><span class="field-name">Age</span> : 20</div>
+            <div>
+              <span class="field-name">Institute</span> : IIITDM Jabalpur
+            </div>
+            <div>
+              <span class="field-name">Residence</span> : Nalgonda Telangana
+            </div>
+            <div>
+              <span class="field-name">Email</span> : 2019287@iiitdmj.ac.in
+            </div>
+            <div><span class="field-name">Phone</span> : (+91)8688798944</div>
+            <div><span class="field-name">Freelance</span> : Available</div>
+            <a href=""
+              ><button class="resume-button" disabled>
+                Download Resume
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="services">
+          <h1 class="underlines-heading">Services</h1>
+          <div class="services-grid">
+            <div class="flex-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Laptop</title>
+                <rect
+                  x="48"
+                  y="96"
+                  width="416"
+                  height="304"
+                  rx="32.14"
+                  ry="32.14"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M16 416h480"
+                />
+              </svg>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+                p
+              </p>
+            </div>
+            <div class="flex-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Color Palette</title>
+                <path
+                  d="M430.11 347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1 0-43.8l30.3-26.9c46.4-41 46.4-108.2 0-149.2-34.2-30.1-80.1-45-127.8-45-55.7 0-113.9 20.3-158.8 60.1-83.5 73.8-83.5 194.7 0 268.5 41.5 36.7 97.5 55 152.9 55.4h1.7c55.4 0 110-17.9 148.8-52.4 14.4-12.7 11.99-36.6.1-47.7z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                />
+                <circle cx="144" cy="208" r="32" />
+                <circle cx="152" cy="311" r="32" />
+                <circle cx="224" cy="144" r="32" />
+                <circle cx="256" cy="367" r="48" />
+                <circle cx="328" cy="144" r="32" />
+              </svg>
+              <h2>Web Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+                p
+              </p>
+            </div>
+            <div class="flex-item">
+              <img src="./images/icons/responsive-design.svg" alt="" />
+              <h2>Responsive Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+                p
+              </p>
+            </div>
+            <div class="flex-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon"
+                viewBox="0 0 512 512"
+              >
+                <title>Logo Python</title>
+                <path
+                  d="M314 36.38c-18.59-3.06-45.8-4.47-64.27-4.38a311.09 311.09 0 00-51.66 4.38c-45.74 8-54.07 24.7-54.07 55.54V128h112v16H107.62C66.06 144 32.33 193.67 32 255.12v.88a162.91 162.91 0 003.13 32c9.29 46.28 38.23 80 72.49 80H128v-54c0-31.3 20.84-59.95 55-66.1l9.87-1.23H314a56.05 56.05 0 0015.06-2A52.48 52.48 0 00368 193.68V91.92c0-28.92-24.68-50.73-54-55.54zM194.93 105.5a20.37 20.37 0 1120.3-20.3 20.29 20.29 0 01-20.3 20.3z"
+                />
+                <path
+                  d="M475.28 217c-10.7-42.61-38.41-73-70.9-73h-17.71v47.45c0 39.57-26 68.22-57.74 73.13a63.54 63.54 0 01-9.69.75H198.08a60 60 0 00-15.23 1.95C160.54 273.14 144 291.7 144 315.77v101.77c0 29 29.14 46 57.73 54.31 34.21 9.95 71.48 11.75 112.42 0 27.19-7.77 53.85-23.48 53.85-54.31V384H256v-16h148.38c29.44 0 54.95-24.93 67.45-61.31A156.83 156.83 0 00480 256a160.64 160.64 0 00-4.72-39zM316.51 404a20.37 20.37 0 11-20.3 20.3 20.29 20.29 0 0120.3-20.3z"
+                />
+              </svg>
+              <h2>Python Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+                p
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card resume" id="resume">
+      <lottie-player
+        class="under-construction"
+        src="./images/52975-under-construction.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+    </section>
+    <section class="card work" id="work">
+      <lottie-player
+        class="under-construction"
+        src="./images/52975-under-construction.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+    </section>
+    <section class="card contact" id="contact">
+      <div class="content">
+        <div class="heading-container">
+          <div class="flex-container">
+            <h1>Contact Me.</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <title>Mail</title>
+              <rect
+                x="48"
+                y="96"
+                width="416"
+                height="320"
+                rx="40"
+                ry="40"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+                d="M112 160l144 112 144-112"
+              />
+            </svg>
+          </div>
+          <hr />
+        </div>
+        <h1 class="underlines-heading">LET'S TALK</h1>
+        <div class="contact-form">
+          <form name="contact" id="contact-form">
+            <div class="contact-grid">
+              <div class="label-anim name-input">
+                <input type="text" class="" name="name" placeholder="Name" />
+                <label for="name">Name</label>
+              </div>
+              <div class="label-anim email-input">
+                <input type="email" class="" name="email" placeholder="Email" />
+                <label for="email">Email</label>
+              </div>
+              <div class="label-anim message-input">
+                <textarea
+                  type="text"
+                  class=""
+                  name="message"
+                  placeholder="How can we help you?"
+                ></textarea>
+                <label for="message">How can we help you?</label>
+              </div>
+            </div>
+            <input
+              type="submit"
+              class="submit-form success"
+              value="Send Message"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
